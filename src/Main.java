@@ -22,5 +22,12 @@ public class Main {
         System.out.println("cat - 1.6 = " + cat);
         System.out.println("paper - 7639 = " + paper);
 
+        var friend = 19;
+        System.out.println("friend = " + friend);
+        friend = friend + 2; // +2
+        System.out.println("friend + 2 = " + friend);
+        friend = friend / 7; // /7
+        System.out.println("friend / 7 = " + friend);
+
     }
 }
