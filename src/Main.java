@@ -50,5 +50,16 @@ public class Main {
         differenceWeight = secondBoxer % firstBoxer; // находим разницу с помощью остаток от деления
         System.out.println("Разница между массами бойцов = " + differenceWeight + " кг");
 
+        var openHour = 640; // всего часов работы
+        var employeeHour = 8; // часы работы одного сотрудника
+        var employeeNumber = openHour / employeeHour; // количество сотрудников в компании
+        System.out.println("Всего работников в компании - " + employeeNumber + " человек");
+        employeeNumber = employeeNumber + 94; // если в компании работает на 94 сотрудника больше
+        openHour = employeeNumber * employeeHour; // всего часов работы, если в штате сотрудников больше на 94
+        System.out.println("Если в компании работает " + employeeNumber + " человек, то всего " + openHour + " часов " +
+                "работы может быть поделено между сотрудниками");
+
+
+
     }
 }
