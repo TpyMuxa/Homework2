@@ -29,5 +29,14 @@ public class Main {
         friend = friend / 7; // /7
         System.out.println("friend / 7 = " + friend);
 
+        var frog = 3.5;
+        System.out.println("frog = " + frog);
+        frog = frog * 10; // * 10
+        System.out.println("frog * 10 = " + frog);
+        frog = frog / 3.5; // / 3.5
+        System.out.println("frog / 3.5 = " + frog);
+        frog = frog + 4; // + 4
+        System.out.println("frog + 4 = " + frog);
+
     }
 }
