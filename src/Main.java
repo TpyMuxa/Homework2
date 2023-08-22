@@ -42,7 +42,12 @@ public class Main {
         var secondBoxer = 82.7;
         var weightBoxer = firstBoxer + secondBoxer;
         System.out.println("Масса двух боксеров = " + weightBoxer + " кг");
-        var differenceWeight = secondBoxer - firstBoxer;
+        var differenceWeight = firstBoxer - secondBoxer;
+        System.out.println("Разница между массами бойцов = " + differenceWeight + " кг");
+
+        differenceWeight = secondBoxer - firstBoxer; // из большей массы вычитаем меньшую
+        System.out.println("Разница между массами бойцов = " + differenceWeight + " кг");
+        differenceWeight = secondBoxer % firstBoxer; // находим разницу с помощью остаток от деления
         System.out.println("Разница между массами бойцов = " + differenceWeight + " кг");
 
     }
